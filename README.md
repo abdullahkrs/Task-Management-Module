@@ -11,7 +11,7 @@ This .NET Core project introduces a Task Management Module meticulously crafted 
 
 ## Screenshots
 
-![Task Management Dashboard - Admin](/screenshots/mainpage_admin.png)
+![Task Management Dashboard - Admin](/screenshots/mainpage_admin.PNG)
 ![Task Management Dashboard - User](/screenshots/mainpage_user.png)
 ![Task Creation](/screenshots/addnewtask.png)
 ![Task Edit - Admin](/screenshots/edittask_admin.png)
