@@ -9,6 +9,10 @@ This .NET Core project introduces a Task Management Module meticulously crafted 
 - **Task Assignment:** Assign tasks to specific users.
 - **Task Approval:** Admin users possess the capability to approve or return tasks.
 
+## Screenshots
+
+![Task Management Dashboard](/screenshots/dashboard.png)
+![Task Creation](/screenshots/task-creation.png)
 
 
 ## Getting Started
