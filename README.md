@@ -1,11 +1,14 @@
 # Task Management Module
 
-This .NET Core project implements a Task Management Module designed to mirror corporate workflows, ensuring efficient planning, and tracking of tasks.
+This .NET Core project introduces a Task Management Module meticulously crafted to emulate corporate workflows, with a focus on facilitating efficient task planning and tracking. The underlying design philosophy of this module is rooted in the principles of the Kanban methodology.
 
 ## Features
 
-- **Task Creation:** Create tasks with unique QR Code / Barcode identifiers.
-- **Task Status:** View the status of each task.
+- **Task Creation:** Generate tasks with distinctive QR Code / Barcode identifiers.
+- **Task Status:** Monitor the status of each task.
+- **Task Assignment:** Assign tasks to specific users.
+- **Task Approval:** Admin users possess the capability to approve or return tasks.
+
 
 
 ## Getting Started
@@ -65,19 +68,13 @@ Make sure you have the following installed:
 
 ## Project Structure
 
-- **TaskManagementApp**: Main project directory.
-  - **Controllers**: Contains controllers for handling HTTP requests.
-  - **Models**: Defines data models.
-  - **Services**: Implements business logic.
-  - **Views**: Contains HTML templates (if applicable).
-  - ...
+- **Task Management Module**: Main project directory.
+  - **Areas**: Directory for organizing different functional areas of the application.
+  - **Controllers**: Contains controllers responsible for handling HTTP requests.
+  - **Data**: Holds components related to data handling.
+  - **Models**: Defines data models for the application.
+  - **Pages**: Directory for page-related components.
 
-- **TaskManagementApp.Tests**: Unit tests directory.
-  - ...
-
-## Contributing
-
-Contributions are welcome! Follow the guidelines in [CONTRIBUTING.md](https://github.com/abdullahkrs/Task-Management-Module/blob/main/CONTRIBUTING.md) to contribute to this project.
 
 ### Reporting Issues
 
