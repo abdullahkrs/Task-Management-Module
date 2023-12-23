@@ -1,45 +1,80 @@
-# Project Title
+# Task Management Module
 
-Brief description of your .NET Core project.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Introduction
-
-Provide a short introduction to your project, explaining its purpose and main features.
+This .NET Core project implements a Task Management Module designed to mirror corporate workflows, ensuring efficient planning, and tracking of tasks.
 
 ## Features
 
-- Feature 1: Describe feature 1 briefly.
-- Feature 2: Describe feature 2 briefly.
-- ...
+- **Task Creation:** Create tasks with unique QR Code / Barcode identifiers.
+- **Task Status:** View the status of each task.
+
 
 ## Getting Started
 
 ### Prerequisites
 
-List any software or dependencies that users need to install before using your project.
+Make sure you have the following installed:
+
+- [.NET Core SDK](https://dotnet.microsoft.com/download)
 
 ### Installation
 
-Provide step-by-step instructions on how users can install and set up your project locally.
+1. Clone the repository:
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/your-repo.git
+    ```bash
+    git clone https://github.com/abdullahkrs/Task-Management-Module.git
+    ```
 
-# Navigate to the project directory
-cd your-repo
+2. Navigate to the project directory:
 
-# Install dependencies
-dotnet restore
+    ```bash
+    cd Task-Management-Module
+    ```
+
+3. Build the project:
+
+    ```bash
+    dotnet build
+    ```
+
+4. Run the application:
+
+    ```bash
+    dotnet run
+    ```
+
+### Usage
+
+1. Open your browser and go to [http://localhost:44316](http://localhost:44316).
+2. Use the application to create tasks, view task status, and analyze task data.
+
+## Project Structure
+
+- **TaskManagementApp**: Main project directory.
+  - **Controllers**: Contains controllers for handling HTTP requests.
+  - **Models**: Defines data models.
+  - **Services**: Implements business logic.
+  - **Views**: Contains HTML templates (if applicable).
+  - ...
+
+- **TaskManagementApp.Tests**: Unit tests directory.
+  - ...
+
+## Contributing
+
+Contributions are welcome! Follow the guidelines in [CONTRIBUTING.md](https://github.com/abdullahkrs/Task-Management-Module/blob/main/CONTRIBUTING.md) to contribute to this project.
+
+### Reporting Issues
+
+If you encounter any issues or have suggestions, please [open an issue](https://github.com/abdullahkrs/Task-Management-Module/issues).
+
+### Contributing Code
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature`.
+3. Commit your changes: `git commit -m 'Add new feature'`.
+4. Push to the branch: `git push origin feature/your-feature`.
+5. Submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](https://github.com/abdullahkrs/Task-Management-Module/blob/main/LICENSE).
